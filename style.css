@@ -1,0 +1,86 @@
+.bg{
+    background-color:rgba(7, 68, 68,.5);
+    padding: 10px;
+}
+
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 550px;
+    height: 600px;
+    border: 2px solid gray;
+    margin: 30px auto;
+    padding: 45px;
+    padding-top: 90px;    
+    background-color: #4E2E2B;
+    border-radius: 6px;
+}
+.upContent{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.305);
+}
+.heading{
+    font-family: 'Karla', sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    color: white;
+    margin-bottom: 5px;
+}
+.heading span{
+    color: #00ffaa;
+}
+.subLine{
+    color: rgb(232, 232, 232);
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.subLine--two{
+    color: rgb(111, 255, 207);
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+.generatePassword{
+    background-color: #074444;
+    color: white;
+    width: 190px;
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.generatePassword:active{
+    background-color: #00ffaa;
+}
+.downContent{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+.outputText{
+    width: 220px;
+    height: 40px;
+    padding: 12px 20px;
+    margin-right: 12px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    background-color: #074444;
+    color: #c3e9ff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.outputText::selection{
+    color: white;
+    background-color: #1bb07f;
+}
